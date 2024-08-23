@@ -1,0 +1,20 @@
+[package]
+name = "golf_blockchain"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sha2 = "0.10"         # For hashing (SHA-256)
+rand = "0.8"          # For random number generation
+base64 = "0.22.1"       # For encoding/decoding base64
+hex = "0.4"
+uuid = { version = "1.2", features = ["v4"] }
+rust_decimal = "1.31"
+rust_decimal_macros = "1.31"
+reqwest = { version = "0.12.7", features = ["json"] }
+serde = { version = "1.0.208", features = ["derive"] }
+serde_json = "1.0.125"
+tokio = { version = "1.39.3", features = ["full"] }
+chrono = "0.4.38"
+lazy_static = "1.5.0"
+parking_lot = "0.12.3 "
